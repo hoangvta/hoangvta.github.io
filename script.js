@@ -17,7 +17,7 @@ function captureVideo() {
 
 function edgeDetection() {
     var pixels = ctx.getImageData(0, 0, canvas.width, canvas.height);
-    // console.log(pixels);
+    console.log(pixels);
 }
 
 // Draw frame on video play and every frame update
